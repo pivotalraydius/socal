@@ -1,33 +1,12 @@
-#slide1
-  .row
-    .col-md-6.col-md-offset-3
-      #create_new_event
-        New Event
-      #use_invitation
-        I'm Invited
-
-#slide2
-  .row
-    .col-md-6.col-md-offset-3
-      .event_name
-        %textarea{id:'event_name', placeholder:'Event Name',autofocus: "autofocus" }
-
-
-
-
 .row
   .col-md-6.col-md-offset-3
-    #calendar
--#
--#
--#:javascript
--#
+    =link_to "New event", event_name_path , id: "create_new_event"
+    #use_invitation
+      I'm Invited
 
-  //var day = moment().startOf("day")
-  //alert(day)
+
 :javascript
-  $("#create_new_event").click(function(){
-      $("#slide1").hide(1000)
+  $(function(){
+    $("#event_footer").show();
   })
 
-  React.render(React.createElement(Calendar, {selected: moment().startOf("day")}), document.getElementById("calendar"));

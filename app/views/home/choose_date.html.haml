@@ -1,0 +1,8 @@
+
+.row
+  .col-md-6.col-md-offset-3
+    #calendar
+
+:javascript
+
+  React.render(React.createElement(Calendar, {selected: moment().startOf("day")}), document.getElementById("calendar"));
