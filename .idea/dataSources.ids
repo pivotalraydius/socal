@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails even_calendar: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="b5c534a6-b378-40c9-be98-3319470d3395">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:even_calendar_development</jdbc-url>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.3-1100.jdbc4.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails even_calendar: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="0b4764bf-5154-432b-aa87-494feb6c1cd9">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:even_calendar_production</jdbc-url>
+    <user-name>even_calendar</user-name>
+    <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfefdffcdfefdfe4dff5dfe9dfebdfe6dfefdfe4dfeedfebdff8dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.3-1100.jdbc4.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails even_calendar: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="46ababe4-1367-461c-842c-514f9dc6db25">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:even_calendar_test</jdbc-url>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.3-1100.jdbc4.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>

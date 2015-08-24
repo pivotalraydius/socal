@@ -1,0 +1,41 @@
+#slide1{style:'display:none'}
+  %nav.navbar.navbar-default
+    .row
+      .col-md-3{style:'float:left'}
+        MyCal
+        %br
+        -if current_user
+          = link_to "sign out", destroy_user_session_path, method: :delete
+      .col-md-3{style:'float:right;text-align:right'}
+        SoCal
+        %br
+        social calendar
+  .row
+    .col-md-6.col-md-offset-3
+      #create_new_event
+        New Event
+      #use_invitation
+        I'm Invited
+
+.row#slide2
+  .col-md-6.col-md-offset-3
+    .event_name
+      %textarea{id:'event_name', placeholder:'Event Name',autofocus: "autofocus" }
+
+
+
+-#
+-#.row
+-#  .col-md-12
+-#    #calendar
+-#
+-#
+-#:javascript
+-#  React.render(React.createElement(Calendar, {selected: moment().startOf("day")}), document.getElementById("calendar"));
+
+  //var day = moment().startOf("day")
+  //alert(day)
+:javascript
+  $("#create_new_event").click(function(){
+      $("#slide1").hide(1000)
+  })

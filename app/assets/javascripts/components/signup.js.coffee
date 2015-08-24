@@ -1,0 +1,2 @@
+@LoginForm = React.createClass
+

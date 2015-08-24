@@ -1,0 +1,26 @@
+-#%nav.navbar.navbar-default
+-#  .container
+-#    .navbar-header
+-#      %a.navbar-brand{:href => "#"}
+-#        =image_tag("logo.png", :alt => "Brand")
+-#        %span Social Calendar
+-#    -if current_user
+-#      %ul.nav.navbar-nav.navbar-right
+-#
+-#        %li
+-#          .btn.btn-warning{style:'line-height:35px;'}
+-#            Use Invitation
+-#            .glyphicon.glyphicon-pencil{"aria-hidden" => "true"}
+-#        %li
+-#          = link_to "Logout", destroy_user_session_path, method: :delete
+%nav.navbar.navbar-default
+  .row
+    .col-md-3{style:'float:left'}
+      MyCal
+      %br
+      -if current_user
+        = link_to "sign out", destroy_user_session_path, method: :delete
+    .col-md-3{style:'float:right;text-align:right'}
+      SoCal
+      %br
+      social calendar
