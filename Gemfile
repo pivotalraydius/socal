@@ -48,6 +48,8 @@ gem 'momentjs-rails'
 
 gem 'font-awesome-rails'
 
+gem 'rails_12factor', group: :production
+
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
