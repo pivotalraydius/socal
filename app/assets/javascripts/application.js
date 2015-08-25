@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require jquery
-
 //= require jquery_ujs
 //= require turbolinks
 //= require react
@@ -23,7 +22,3 @@
 //= require horizontal-scroll
 
 //= require_tree .
-
-$(function(){
-    $("body").addClass("blur-bgimage");
-})
