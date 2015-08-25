@@ -34,7 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'react-rails', '~> 1.0'
 
-gem 'bootstrap-sass', '3.2.0.2'
+gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'autoprefixer-rails'
 
 gem 'delayed_job_active_record'
