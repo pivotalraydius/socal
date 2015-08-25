@@ -1,0 +1,28 @@
+#choseDate_page{"data-role" => "page"}
+
+  %div{"data-role" => "header"}
+    =render 'layouts/navigation'
+
+  .ui-content{:role => "main"}
+    #topic_title
+
+    #calendar
+    .footer
+      =link_to(image_tag("mobile/BackEvent.png", :alt => "back"), event_name_path)
+      =link_to(image_tag("mobile/Add.png", :alt => "add_people"), choose_date_path,style:'float:right')
+
+
+-#
+-#
+-#:javascript
+-#
+-#  React.render(React.createElement(Calendar, {selected: moment().startOf("day")}), document.getElementById("calendar"));
+
+
+:javascript
+  var topic = localStorage.topicTitle;
+   alert(topic)
+   $("#topic_title").text(topic)
+   $('#choseDate_page').on('pagebeforeshow', function (e, data) {
+       alert(data.prevPage.find('div[data-role="content"]').attr('id'));
+   });

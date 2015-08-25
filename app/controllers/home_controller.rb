@@ -1,9 +1,12 @@
 class HomeController < ApplicationController
+
+
   def login
   end
 
   def index
 
+    p "index page"
   end
 
   def event_name
@@ -13,5 +16,6 @@ class HomeController < ApplicationController
   def choose_date
 
   end
+
 
 end

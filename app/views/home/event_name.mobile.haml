@@ -1,0 +1,29 @@
+#topicTitle_page{"data-role" => "page"}
+
+  %div{"data-role" => "header"}
+    =render 'layouts/navigation'
+
+  .ui-content{:role => "main"}
+    .event_name
+      %textarea{ placeholder:'Event Name', id: 'm_topic_title'}
+    .footer
+      =link_to(image_tag("mobile/BackCancel.png", :alt => "back"), root_path)
+      =link_to(image_tag("mobile/Choose.png", :alt => "choose_date"), choose_date_path,style:'float:right', id:'chooseDate')
+
+
+:javascript
+
+
+  $(document).on('click', '#chooseDate', function(){
+
+      // store some data
+
+      var topicTitle = $("#m_topic_title").val();
+      if(typeof(Storage)!=="undefined") {
+        ocalStorage.topicTitle= topicTitle;
+      }
+
+      alert("ok")
+      $.mobile.changePage("#choseDate_page");
+  });
+

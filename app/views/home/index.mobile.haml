@@ -1,10 +1,13 @@
-.row
-  .col-md-6.col-md-offset-3
+#home_page{"data-role" => "page"}
+
+  %div{"data-role" => "header"}
+    =render 'layouts/navigation'
+
+  .ui-content{:role => "main"}
     -if current_user
       =link_to(image_tag("mobile/MainNew.png", :alt => "New Event"), event_name_path, id: "create_new_event")
     -else
       =link_to(image_tag("mobile/MainNew.png", :alt => "New Event"), event_name_path, id: "create_new_event")
 
     =link_to(image_tag("mobile/MainInvite.png", :alt => "i'm invite"), root_path, id: "use_invitation")
-
 

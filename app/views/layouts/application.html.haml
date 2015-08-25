@@ -7,8 +7,16 @@
     %title Social Calendar
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = stylesheet_link_tag   "web"
     = csrf_meta_tags
+
+
+
   %body
+    - if mobile_device?
+      = link_to "Full Site", :mobile => 0
+    - else
+      = link_to "Mobile Site", :mobile => 1
     %header
       =render 'layouts/navigation'
     .container-fluid

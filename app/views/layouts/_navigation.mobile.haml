@@ -1,0 +1,9 @@
+.row
+  .col-md-4{style:'float:left'}
+    -if current_user
+      =link_to(image_tag("mobile/Loggedin.png", :alt => "logout"), destroy_user_session_path, method: :delete)
+    -else
+      =link_to(image_tag("mobile/Login.png", :alt => "login"), new_user_session_path)
+
+  .col-md-4{style:'float:right;text-align:right'}
+    =link_to(image_tag("mobile/SoCal.png", :alt => "login"), event_name_path)
