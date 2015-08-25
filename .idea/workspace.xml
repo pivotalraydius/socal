@@ -12,7 +12,7 @@
     <file path="$PROJECT_DIR$/../bzz-web/Gemfile" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440062248065" ignored="false" />
     <file path="/application.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440469409511" ignored="false" />
     <file path="/_navigation.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440468550754" ignored="false" />
-    <file path="/style.scss" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440471810231" ignored="false" />
+    <file path="/style.scss" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440472891393" ignored="false" />
     <file path="/login.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440134485161" ignored="false" />
     <file path="/login.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440137788415" ignored="false" />
     <file path="$PROJECT_DIR$/../react_accounts/app/assets/javascripts/components/records.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440147098192" ignored="false" />
@@ -103,9 +103,9 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="17" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.3537697">
+            <state line="79" column="11" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.34134218">
               <folding>
-                <marker date="1440471829000" expanded="true" signature="468:1519" placeholder="{...}" />
+                <marker date="1440472895000" expanded="true" signature="468:1577" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -123,7 +123,7 @@
       <file leaf-file-name="_navigation.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="86" selection-start="787" selection-end="808" vertical-scroll-proportion="-13.125">
+            <state line="25" column="49" selection-start="943" selection-end="943" vertical-scroll-proportion="-15.625">
               <folding />
             </state>
           </provider>
@@ -174,13 +174,13 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.haml" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/home/event_name.html.haml" />
         <option value="$PROJECT_DIR$/app/views/home/choose_date.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/sessions/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.scss" />
       </list>
     </option>
@@ -1031,13 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="86" selection-start="787" selection-end="808" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/choose_date.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="34" selection-start="286" selection-end="286" vertical-scroll-proportion="-8.125">
@@ -1048,13 +1041,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="107" selection-start="145" selection-end="161" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
@@ -1080,11 +1066,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="49" selection-start="943" selection-end="943" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="107" selection-start="145" selection-end="161" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="17" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.3537697">
+        <state line="79" column="11" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.34134218">
           <folding>
-            <marker date="1440471829000" expanded="true" signature="468:1519" placeholder="{...}" />
+            <marker date="1440472895000" expanded="true" signature="468:1577" placeholder="{...}" />
           </folding>
         </state>
       </provider>
