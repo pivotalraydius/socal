@@ -19,4 +19,5 @@
             = f.label :remember_me
         .actions
           = f.submit "Log in" , class: 'btn btn-success'
+          =link_to 'Cancel', root_path,  class: 'btn btn-danger'
       = render "users/shared/links"

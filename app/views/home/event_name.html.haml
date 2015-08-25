@@ -2,6 +2,9 @@
   .col-md-6.col-md-offset-3
     .event_name
       %textarea{id:'event_name', placeholder:'Event Name',autofocus: "autofocus" }
+.footer
+  =link_to(image_tag("mobile/BackCancel.png", :alt => "back"), root_path)
+  =link_to(image_tag("mobile/Choose.png", :alt => "choose_date"), choose_date_path,style:'float:right')
 
-:javascript
-  $("#event_footer").show();
+
+

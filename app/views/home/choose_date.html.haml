@@ -2,6 +2,12 @@
 .row
   .col-md-6.col-md-offset-3
     #calendar
+.footer
+  =link_to(image_tag("mobile/BackEvent.png", :alt => "back"), event_name_path)
+  =link_to(image_tag("mobile/Add.png", :alt => "add_people"), choose_date_path,style:'float:right')
+
+
+
 
 :javascript
 

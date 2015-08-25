@@ -1,8 +1,11 @@
 .row
   .col-md-6.col-md-offset-3
-    =link_to "New event", event_name_path , id: "create_new_event"
-    #use_invitation
-      I'm Invited
+    -if current_user
+      =link_to(image_tag("mobile/MainNew.png", :alt => "New Event"), event_name_path, id: "create_new_event")
+    -else
+      =link_to(image_tag("mobile/MainNew.png", :alt => "New Event"), new_user_session_path, id: "create_new_event")
+
+    =link_to(image_tag("mobile/MainInvite.png", :alt => "i'm invite"), root_path, id: "use_invitation")
 
 
 :javascript

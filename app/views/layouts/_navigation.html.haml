@@ -16,11 +16,10 @@
 %nav.navbar.navbar-default
   .row
     .col-md-3{style:'float:left'}
-      MyCal
-      %br
       -if current_user
-        = link_to "sign out", destroy_user_session_path, method: :delete
+        =link_to(image_tag("mobile/Loggedin.png", :alt => "logout"), destroy_user_session_path, method: :delete)
+      -else
+        =link_to(image_tag("mobile/Login.png", :alt => "login"), new_user_session_path)
+
     .col-md-3{style:'float:right;text-align:right'}
-      SoCal
-      %br
-      social calendar
+      =link_to(image_tag("mobile/SoCal.png", :alt => "login"), event_name_path)

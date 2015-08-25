@@ -35,19 +35,10 @@
   margin-right: auto;
 }
 .navbar{
-  font-size: 1.3em;
-  background: rgb(253,136,10)!important;
-  color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
-  a{
-    color: #fff;
-    text-decoration: none;
-  }
-  a:hover, a:active, a:focus{
-    color: #fff;
-    text-decoration: none;
-  }
+
+  background: transparent !important;
+  border: none !important;
+
 }
 
 .container-fluid{
@@ -59,15 +50,6 @@
   margin-bottom: 50px;
 }
 #create_new_event,#use_invitation{
-  border:1px solid rgb(253,136,10);
-  color: rgb(253,136,10);
-  text-align: center;
-  border-radius: 20px;
-  width: 300px;
-  height: 70px;
-  line-height: 70px;
-
-  font-size: 1.4em;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -75,24 +57,11 @@
 
 }
 
-#create_new_event::before, #use_invitation::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 300px;
-  height: 70px;
-  background:rgb(224,233,236);
-  opacity: .6;
-  border-radius: 20px;
-
-
-}
 
 .footer {
   background-color: none;
   bottom: 0;
-  height: 60px;
+  height: 50px;
   position: absolute;
   width: 100%;
 }
@@ -116,16 +85,17 @@ body{
   overflow: hidden;
 
 }
-.blur-bgimage:before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background:rgb(224,233,236);
-  opacity: .4;
-}
+
+//.blur-bgimage:before {
+//  content: "";
+//  display: block;
+//  position: absolute;
+//  z-index: -1;
+//  width: 100%;
+//  height: 100%;
+//  background:rgb(224,233,236);
+//  opacity: .4;
+//}
 
 .jumbotron{
   margin-top: 50px;
@@ -195,9 +165,16 @@ body{
 
 #event_footer{
   .btn{
-    height: 60px;
+    height: 5px;
     width: 120px !important;
     line-height: 60px;
   }
 }
 
+.jumbotron{
+  background: transparent !important;
+  color: rgb(253,136,10) !important;
+  input[type="email"],input[type="password"]{
+    color: rgb(253,136,10) !important;
+  }
+}
