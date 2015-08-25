@@ -12,7 +12,7 @@
     <file path="$PROJECT_DIR$/../bzz-web/Gemfile" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440062248065" ignored="false" />
     <file path="/application.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440469409511" ignored="false" />
     <file path="/_navigation.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440468550754" ignored="false" />
-    <file path="/style.scss" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440472891393" ignored="false" />
+    <file path="/style.scss" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440474463022" ignored="false" />
     <file path="/login.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440134485161" ignored="false" />
     <file path="/login.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440137788415" ignored="false" />
     <file path="$PROJECT_DIR$/../react_accounts/app/assets/javascripts/components/records.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440147098192" ignored="false" />
@@ -35,7 +35,7 @@
     <file path="/event_form.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440388474207" ignored="false" />
     <file path="$PROJECT_DIR$/../socal-web/app/helpers/calendar_helper.rb" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440392586836" ignored="false" />
     <file path="/EventForm.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440393943490" ignored="false" />
-    <file path="/calendar.css.scss" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440394965322" ignored="false" />
+    <file path="/calendar.css.scss" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440474596567" ignored="false" />
     <file path="/application.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440401226809" ignored="false" />
     <file path="/home.scss" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440404647782" ignored="false" />
     <file path="/app.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440405095806" ignored="false" />
@@ -44,7 +44,7 @@
     <file path="/production.rb" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440466245371" ignored="false" />
     <file path="$PROJECT_DIR$/../react_accounts/Gemfile" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440467273685" ignored="false" />
     <file path="/event_name.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440469505377" ignored="false" />
-    <file path="/choose_date.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440469722335" ignored="false" />
+    <file path="/choose_date.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440474555844" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,28 +85,28 @@
       <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="-12.5">
+            <state line="20" column="19" selection-start="582" selection-end="582" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="35" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="11" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.34134218">
+            <state line="128" column="29" selection-start="1980" selection-end="1980" vertical-scroll-proportion="-3.7307692">
               <folding>
-                <marker date="1440472895000" expanded="true" signature="468:1577" placeholder="{...}" />
+                <marker date="1440474463000" expanded="true" signature="468:1577" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="60" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,16 +132,16 @@
       <file leaf-file-name="choose_date.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/choose_date.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="34" selection-start="286" selection-end="286" vertical-scroll-proportion="-8.125">
+            <state line="9" column="9" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="calendar.css.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/calendar.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="47" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+            <state line="8" column="19" selection-start="192" selection-end="192" vertical-scroll-proportion="0.097323604">
               <folding />
             </state>
           </provider>
@@ -150,7 +150,7 @@
       <file leaf-file-name="event_name.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/event_name.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="30" selection-start="69" selection-end="79" vertical-scroll-proportion="-1.875">
+            <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -166,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/horizontal-scroll.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/app.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/components/app.js" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/home/even_name.html.haml" />
@@ -175,19 +173,21 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/home/event_name.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/home/choose_date.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/sessions/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/home/event_name.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.scss" />
+        <option value="$PROJECT_DIR$/app/views/home/choose_date.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/calendar.css.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="861" />
-    <option name="y" value="84" />
+    <option name="x" value="842" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1413" />
   </component>
@@ -895,7 +895,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="861" y="84" width="1280" height="1413" extended-state="0" />
+    <frame x="842" y="23" width="1280" height="1413" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -979,16 +979,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/staging.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="70" selection-start="2634" selection-end="2634" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="3" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
@@ -1031,20 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/choose_date.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="286" selection-end="286" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="582" selection-end="582" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/registrations/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="14" selection-start="67" selection-end="76" vertical-scroll-proportion="-1.875">
@@ -1059,17 +1035,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/event_name.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="30" selection-start="69" selection-end="79" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="49" selection-start="943" selection-end="943" vertical-scroll-proportion="-15.625">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="582" selection-end="582" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/event_name.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="60" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="29" selection-start="1980" selection-end="1980" vertical-scroll-proportion="-3.7307692">
+          <folding>
+            <marker date="1440474463000" expanded="true" signature="468:1577" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,12 +1079,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/home/choose_date.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="11" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.34134218">
-          <folding>
-            <marker date="1440472895000" expanded="true" signature="468:1577" placeholder="{...}" />
-          </folding>
+        <state line="9" column="9" selection-start="237" selection-end="237" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/calendar.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="192" selection-end="192" vertical-scroll-proportion="0.097323604">
+          <folding />
         </state>
       </provider>
     </entry>
