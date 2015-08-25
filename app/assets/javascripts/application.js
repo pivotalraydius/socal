@@ -20,5 +20,4 @@
 //= require underscore-min
 //= require moment.min
 //= require horizontal-scroll
-
 //= require_tree .
