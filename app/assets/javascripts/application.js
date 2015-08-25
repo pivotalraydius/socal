@@ -16,6 +16,7 @@
 //= require react
 //= require react_ujs
 //= require components
+//= require bootstrap
 //= require bootstrap-sprockets
 //= require underscore-min
 //= require moment.min

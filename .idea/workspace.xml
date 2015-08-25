@@ -74,10 +74,8 @@
       <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="60" selection-start="841" selection-end="841" vertical-scroll-proportion="0.26484752">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="18" column="21" selection-start="732" selection-end="732" vertical-scroll-proportion="0.21669342">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1133,10 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="60" selection-start="841" selection-end="841" vertical-scroll-proportion="0.26484752">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="18" column="21" selection-start="732" selection-end="732" vertical-scroll-proportion="0.21669342">
+          <folding />
         </state>
       </provider>
     </entry>
