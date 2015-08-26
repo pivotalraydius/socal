@@ -24,11 +24,11 @@ var Calendar = React.createClass({displayName: "Calendar",
 
     render: function() {
         return React.createElement("div", null,
-            React.createElement("div", {className: "header"},
-                React.createElement("i", {className: "fa fa-angle-left", onClick: this.previous}),
-                this.renderMonthLabel(),
-                React.createElement("i", {className: "fa fa-angle-right", onClick: this.next})
-            ),
+//            React.createElement("div", {className: "header"},
+//                React.createElement("i", {className: "fa fa-angle-left", onClick: this.previous}),
+//                this.renderMonthLabel(),
+//                React.createElement("i", {className: "fa fa-angle-right", onClick: this.next})
+//            ),
             React.createElement(DayNames, null),
             this.renderWeeks()
         );
@@ -60,13 +60,13 @@ var Calendar = React.createClass({displayName: "Calendar",
 var DayNames = React.createClass({displayName: "DayNames",
     render: function() {
         return React.createElement("div", {className: "week names"},
-            React.createElement("span", {className: "day"}, "Sun"),
-            React.createElement("span", {className: "day"}, "Mon"),
-            React.createElement("span", {className: "day"}, "Tue"),
-            React.createElement("span", {className: "day"}, "Wed"),
-            React.createElement("span", {className: "day"}, "Thu"),
-            React.createElement("span", {className: "day"}, "Fri"),
-            React.createElement("span", {className: "day"}, "Sat")
+            React.createElement("span", {className: "day"}, "mon"),
+            React.createElement("span", {className: "day"}, "tue"),
+            React.createElement("span", {className: "day"}, "wed"),
+            React.createElement("span", {className: "day"}, "thu"),
+            React.createElement("span", {className: "day"}, "fri"),
+            React.createElement("span", {className: "day weekend"}, "sat"),
+            React.createElement("span", {className: "day weekend"}, "sun")
         );
     }
 });

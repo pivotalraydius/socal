@@ -7,7 +7,7 @@
 
 .ui-page
 {
-  background: #000;
+
   background-image: url("..//mobile/BG.jpg") !important;
   background-size:cover;
 
@@ -18,6 +18,8 @@
   resize: none;
   height: 250px !important;
   color: rgb(253,136,10) !important;
+  border: none !important;
+  box-shadow: none;
 }
 
 
@@ -53,4 +55,37 @@
   position: absolute;
   width: 100%;
   margin-left: -15px;
+}
+
+.circle
+{
+  width:60px;
+  height:60px;
+  border-radius:30px;
+  font-size:30px !important;
+  color:#fff;
+  line-height:60px;
+  text-align:center;
+  background:rgb(253,136,10);
+  margin: 0 auto;
+}
+
+.choose5dates{
+  background: #fff;
+  background: rgba(255,255,255,0.5);
+  blur: 2px;
+  height: 210px;
+  padding-top: 15px;
+  border-top: 2px solid rgb(253,136,10);
+
+}
+
+.choseHeader{
+  color: #fff;
+  background: rgb(253,136,10);
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  border-top-right-radius: 15px;
+  margin-bottom: 0px;
 }

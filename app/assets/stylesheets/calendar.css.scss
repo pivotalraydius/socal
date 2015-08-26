@@ -3,13 +3,12 @@
   display: block;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  background: white;
-  width:80%;
+  background: transparent;
+  width:96%;
   border: solid 1px rgb(253,136,10);
-  margin-top: 30px;
   margin-bottom: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 #calendar > div > div.header {
   float: left;
@@ -75,15 +74,15 @@
   line-height: 50px !important;
   display: inline-block;
   vertical-align: middle;
-  background: white;
+  background: transparent;
   cursor: pointer;
-  color: black;
+  color: rgb(253,136,10);
 }
 #calendar > div > div.week > span.day:first-child {
   border-left: none;
 }
 #calendar > div > div.week > span.day.today {
-  background: #E3F2FF;
+  background: transparent;
 }
 #calendar > div > div.week > span.day.different-month {
   color: #C0C0C0;
@@ -93,6 +92,14 @@
   color: white;
 }
 #calendar > div > div.week.names > span {
-  color: rgb(253,136,10);
+  color: #ffffff;
   font-weight: bold;
+  background: rgb(253,136,10);
+  border-top: solid 1px #ffffff;
+  border-left: solid 1px #ffffff;
+  border-bottom: solid 1px #ffffff;
+}
+
+.weekend{
+  background: rgb(224,62,85) !important;
 }

@@ -1,28 +1,35 @@
 #choseDate_page{"data-role" => "page"}
-
   %div{"data-role" => "header"}
     =render 'layouts/navigation'
 
   .ui-content{:role => "main"}
-    #topic_title
-
+    -##topic_title
     #calendar
     .footer
       =link_to(image_tag("mobile/BackEvent.png", :alt => "back"), event_name_path)
       =link_to(image_tag("mobile/Add.png", :alt => "add_people"), choose_date_path,style:'float:right')
 
+  %h4.choseHeader Choose Up to 5 possible dates
+  .choose5dates
 
--#
--#
--#:javascript
--#
--#  React.render(React.createElement(Calendar, {selected: moment().startOf("day")}), document.getElementById("calendar"));
+    .ui-grid-d
+      .ui-block-a
+        .circle 1
+      .ui-block-b
+        .circle 2
+      .ui-block-c
+        .circle 3
+      .ui-block-d
+        .circle 4
+      .ui-block-e
+        .circle 5
+
 
 
 :javascript
   var topic = localStorage.topicTitle;
-   alert(topic)
+  React.render(React.createElement(Calendar, {selected: moment().startOf("day")}), document.getElementById("calendar"));
    $("#topic_title").text(topic)
-   $('#choseDate_page').on('pagebeforeshow', function (e, data) {
-       alert(data.prevPage.find('div[data-role="content"]').attr('id'));
-   });
+   //$('#choseDate_page').on('pagebeforeshow', function (e, data) {
+   //
+   //});
