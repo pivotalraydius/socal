@@ -3,33 +3,35 @@
     =render 'layouts/navigation'
 
   .ui-content{:role => "main"}
-    -##topic_title
+    #topic_title
+      Dinner wtih Classmates for No reason
     #calendar
     .footer
       =link_to(image_tag("mobile/BackEvent.png", :alt => "back"), event_name_path)
       =link_to(image_tag("mobile/Add.png", :alt => "add_people"), choose_date_path,style:'float:right')
 
-  %h4.choseHeader Choose Up to 5 possible dates
-  .choose5dates
 
-    .ui-grid-d
+
+  .choose5dates_wrapper
+    %h4.choseHeader Choose Up to 5 possible dates
+    .ui-grid-d.choose5dates
       .ui-block-a
-        .circle 1
+        .circle{"data-date1" => ''} 1
       .ui-block-b
-        .circle 2
+        .circle{"data-date2" => ''} 2
       .ui-block-c
-        .circle 3
+        .circle{"data-date3" => ''} 3
       .ui-block-d
-        .circle 4
+        .circle{"data-date4" => ''} 4
       .ui-block-e
-        .circle 5
+        .circle{"data-date5" => ''} 5
 
 
 
 :javascript
-  var topic = localStorage.topicTitle;
+  //var topic = localStorage.topicTitle;
   React.render(React.createElement(Calendar, {selected: moment().startOf("day")}), document.getElementById("calendar"));
-   $("#topic_title").text(topic)
+   //$("#topic_title").text(topic)
    //$('#choseDate_page').on('pagebeforeshow', function (e, data) {
    //
    //});

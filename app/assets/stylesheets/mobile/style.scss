@@ -55,6 +55,7 @@
   position: absolute;
   width: 100%;
   margin-left: -15px;
+  z-index: 999;
 }
 
 .circle
@@ -69,16 +70,28 @@
   background:rgb(253,136,10);
   margin: 0 auto;
 }
+//choose5dates_wrapper{
+//  background: transparent;
+//  height: 200px;
+//  bottom: 0;
+//  position: absolute;
+//  width: 100%;
+//}
 
+.choose5dates_wrapper{
+  height: 200px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
 .choose5dates{
   background: #fff;
   background: rgba(255,255,255,0.5);
-  blur: 2px;
-  height: 210px;
+  height: 175px;
   padding-top: 15px;
   border-top: 2px solid rgb(253,136,10);
-
 }
+
 
 .choseHeader{
   color: #fff;
@@ -87,5 +100,5 @@
   padding: 10px;
   text-align: center;
   border-top-right-radius: 15px;
-  margin-bottom: 0px;
+  margin: 0px;
 }

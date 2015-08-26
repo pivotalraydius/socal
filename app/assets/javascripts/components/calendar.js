@@ -24,11 +24,11 @@ var Calendar = React.createClass({displayName: "Calendar",
 
     render: function() {
         return React.createElement("div", null,
-//            React.createElement("div", {className: "header"},
-//                React.createElement("i", {className: "fa fa-angle-left", onClick: this.previous}),
-//                this.renderMonthLabel(),
-//                React.createElement("i", {className: "fa fa-angle-right", onClick: this.next})
-//            ),
+            React.createElement("div", {className: "header"},
+                React.createElement("i", {className: "fa fa-angle-left", onClick: this.previous}),
+                this.renderMonthLabel(),
+                React.createElement("i", {className: "fa fa-angle-right", onClick: this.next})
+            ),
             React.createElement(DayNames, null),
             this.renderWeeks()
         );
