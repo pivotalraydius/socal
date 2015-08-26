@@ -5,31 +5,48 @@
   .ui-content{:role => "main"}
     #topic_title
       Dinner wtih Classmates for No reason
-    #calendar
-    -#=react_component 'Calendar', { selected: Date.today }, id: 'calendar'
+    = react_component('Calendar', {shouldHide: false})
+
     .footer
       =link_to(image_tag("mobile/BackEvent.png", :alt => "back"), event_name_path)
       =link_to(image_tag("mobile/Add.png", :alt => "add_people"), choose_date_path,style:'float:right')
 
 
 
-  .choose5dates_wrapper
-    %h4.choseHeader Choose Up to 5 possible dates
-    .ui-grid-d.choose5dates
-      .ui-block-a
-        .circle{"data-date1" => ''} 1
-      .ui-block-b
-        .circle{"data-date2" => ''} 2
-      .ui-block-c
-        .circle{"data-date3" => ''} 3
-      .ui-block-d
-        .circle{"data-date4" => ''} 4
-      .ui-block-e
-        .circle{"data-date5" => ''} 5
+  -#.choose5dates_wrapper
+  -#  %h4.choseHeader Choose Up to 5 possible dates
+  -#  .ui-grid-d.choose5dates
+  -#    .ui-block-a
+  -#      .circle
+  -#        #date1
+  -#          1
+  -#        #month1
+  -#          Aug
+  -#    .ui-block-b
+  -#      .circle_inactive
+  -#        #date2
+  -#          2
+  -#        #month2
+  -#    .ui-block-c
+  -#      .circle_inactive
+  -#        #date3
+  -#          3
+  -#        #month3
+  -#    .ui-block-d
+  -#      .circle_inactive
+  -#        #date4
+  -#          4
+  -#        #month4
+  -#    .ui-block-e
+  -#      .circle_inactive
+  -#        #date5
+  -#          5
+  -#        #month5
 
 
 
 :javascript
-
-  React.render(React.createElement(Calendar, {selected: moment().startOf("day")}), document.getElementById("calendar"));
-
+  //
+  //React.render(React.createElement(Calendar, {selected: moment().startOf("day"), shouldHide: false}), document.getElementById("calendar"));
+  //
+  //

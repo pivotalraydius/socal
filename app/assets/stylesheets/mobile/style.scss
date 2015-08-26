@@ -62,26 +62,29 @@
   width:60px;
   height:60px;
   border-radius:30px;
-  font-size:30px !important;
   color:#fff;
   line-height:60px;
   text-align:center;
   background:rgb(253,136,10);
   margin: 0 auto;
-}
-//choose5dates_wrapper{
-//  background: transparent;
-//  height: 200px;
-//  bottom: 0;
-//  position: absolute;
-//  width: 100%;
-//}
 
+}
+.circle_inactive{
+  width:60px;
+  height:60px;
+  border-radius:30px;
+  color:#fff;
+  line-height:60px;
+  text-align:center;
+  margin: 0 auto;
+  background: rgb(234,180,85);
+}
 .choose5dates_wrapper{
   height: 200px;
   bottom: 0;
   position: absolute;
   width: 100%;
+  margin-left: -16px;
 }
 .choose5dates{
   background: #fff;
@@ -101,3 +104,14 @@
   border-top-right-radius: 15px;
   margin: 0px;
 }
+#date1,#date2,#date3,#date4,#date5{
+  font-size:30px !important;
+}
+
+#month1,#month2,#month3,#month4,#month5{
+    padding: 0px;
+    color: rgb(253,136,10);
+    margin-top:-20px;
+}
+
+.hidden { display:none; }

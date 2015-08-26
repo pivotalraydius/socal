@@ -1,5 +1,5 @@
 
-#calendar{
+.calendar{
   //float: left;
   text-align: center;
   margin: 0 auto;
@@ -8,11 +8,10 @@
   -moz-box-sizing: border-box;
   background: transparent;
   width: 350px;
-  border: solid 1px rgb(253,136,10) !important;
 
 }
 
-#calendar > div > div.header {
+.calendar > div.header {
   float: left;
   width: 100%;
   background: rgb(253,136,10);
@@ -20,14 +19,14 @@
   color: white;
 }
 
-#calendar > div > div.header > * {
+.calendar > div.header > * {
   height: 40px;
   line-height: 40px !important;
   display: inline-block;
   vertical-align: middle;
 }
 
-#calendar > div > div.header > i {
+.calendar > div.header > i {
   float: left;
   width: 40px;
   font-size: 1.125em;
@@ -38,14 +37,14 @@
   padding: 0 10px;
   cursor: pointer;
 }
-#calendar > div > div.header > i.fa-angle-left {
+.calendar > div.header > i.fa-angle-left {
   text-align: left;
 }
-#calendar > div > div.header > i.fa-angle-right {
+.calendar > div.header > i.fa-angle-right {
   text-align: right;
   margin-left: -40px;
 }
-#calendar > div > div.header > span {
+.calendar > div.header > span {
   float: left;
   width: 100%;
   font-weight: bold;
@@ -58,7 +57,7 @@
   padding-right: 40px;
   color: inherit;
 }
-#calendar > div > div.week {
+.calendar > div.week {
   float: left;
   width: 100%;
   border-top: solid 1px rgb(253,136,10);
@@ -66,15 +65,15 @@
   border-right: solid 1px rgb(253,136,10);
   //border-bottom: solid 1px rgb(253,136,10);
 }
-#calendar > div > div.week:first-child {
+.calendar > div.week:first-child {
   border-top: none;
 }
 
-#calendar > div > div.week:last-child {
+.calendar > div.week:last-child {
   border-bottom: solid 1px rgb(253,136,10);
 }
 
-#calendar > div > div.week > span.day {
+.calendar > div.week > span.day {
   float: left;
   width: 14.28571429%;
   box-sizing: border-box;
@@ -90,25 +89,25 @@
   cursor: pointer;
   color: rgb(253,136,10);
 }
-#calendar > div > div.week > span.day:first-child {
+.calendar > div.week > span.day:first-child {
   border-left: none;
 }
-#calendar > div > div.week > span.day.today {
+.calendar > div.week > span.day.today {
   background: #E3F2FF;
 }
-#calendar > div > div.week > span.day.different-month {
+.calendar > div.week > span.day.different-month {
   color: #C0C0C0;
 }
-#calendar > div > div.week > span.day.selected {
+.calendar > div.week > span.day.selected {
   background: #2875c7;
   color: white;
 }
-#calendar > div > div.week.names > span {
+.calendar > div.week.names > span {
   color: #2875c7;
   font-weight: bold;
 }
 
-#calendar > div > div.week.names > span {
+.calendar > div.week.names > span {
   color: #ffffff;
   font-weight: bold;
   background: rgb(253,136,10);
