@@ -29,7 +29,6 @@ var Calendar = React.createClass({
         var m = day.date.format('MMM')
         this.props.s_date1 = day.date
 
-
 //        this.props.shouldHide = true;
 
         this.forceUpdate();
@@ -59,6 +58,20 @@ var Calendar = React.createClass({
         return React.createElement("span", null, this.state.month.format("MMMM, YYYY"));
     },
 
+    selectdate1: function(){
+        var date1 = this.props.s_date1;
+
+        if (date1 === undefined || date1 === null) {
+            //do something
+            var dd =  moment().startOf("day") ;
+            var d = dd.format('D')
+        }else{
+            var d = date1.format('D')
+        }
+
+        return d;
+    },
+
     render: function() {
         return React.createElement("div", {className: this.props.shouldHide ? 'hidden ' : ''},
 
@@ -72,13 +85,44 @@ var Calendar = React.createClass({
 
                 React.createElement(DayNames, null),
                 this.renderWeeks()
-            )
+            ),
 
-            , React.createElement(SelectedDays, null)
+             React.createElement("div",{className: "choose5dates_wrapper"},
+                React.createElement("h4", {className: 'choseHeader'}, "Choose Up to 5 possible dates"),
+                React.createElement("div", {className: 'ui-grid-d choose5dates'},
+                    React.createElement("div", {className: 'ui-block-a'},
+                        React.createElement(DayBox, {
+                            type: 'success',
+                            date: this.selectdate1()
+                        })
+                    ),
+
+                    React.createElement("div", {className: 'ui-block-b'},
+                        React.createElement("div", {className: 'circle_inactive', id: 'date2'},
+                            React.createElement("span"), '2')),
+
+                    React.createElement("div", {className: 'ui-block-c'},
+                        React.createElement("div", {className: 'circle_inactive', id: 'date3'},
+                            React.createElement("span"), '3')),
+
+                    React.createElement("div", {className: 'ui-block-d'},
+                        React.createElement("div", {className: 'circle_inactive' , id: 'date4'},
+                            React.createElement("span"), '4')),
+
+                    React.createElement("div", {className: 'ui-block-e'},
+                        React.createElement("div", {className: 'circle_inactive', id: 'date5'},
+                            React.createElement("span"), '5'))
+
+                )
+
+            )
+//            React.createElement(SelectedDays, null)
 
 
         );
     }
+
+
 
 
 });
@@ -125,11 +169,6 @@ var Week = React.createClass({displayName: "Week",
 
 var SelectedDays = React.createClass({displayName: "SelectedDays",
 
-    selectdate1: function(){
-        var date1= moment().startOf("day") ;
-        var d = date1.format('D')
-       return d;
-    },
     render: function(){
 
         return React.createElement("div",{className: "choose5dates_wrapper"},

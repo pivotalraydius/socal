@@ -18,7 +18,6 @@
           var topicTitle = $("#m_topic_title").val();
           sessionStorage.flag = "title true"
           sessionStorage.title =  topicTitle
-          alert('fire')
           $.mobile.changePage('#{choose_date_path}', { data : { 'title' : topicTitle} });
 
       });

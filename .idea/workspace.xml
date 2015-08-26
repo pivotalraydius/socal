@@ -30,7 +30,7 @@
     <file path="/CreateEvent.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440388389436" ignored="false" />
     <file path="/calendar.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440382898789" ignored="false" />
     <file path="/a.sql" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440383854268" ignored="false" />
-    <file path="/calendar.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440581097996" ignored="false" />
+    <file path="/calendar.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440582666228" ignored="false" />
     <file path="/event_form.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440388474207" ignored="false" />
     <file path="$PROJECT_DIR$/../socal-web/app/helpers/calendar_helper.rb" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440392586836" ignored="false" />
     <file path="/EventForm.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440393943490" ignored="false" />
@@ -74,95 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="calendar.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/calendar.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="53" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event_name.mobile.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/event_name.mobile.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="18" selection-start="852" selection-end="852" vertical-scroll-proportion="-16.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="82" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.mobile.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="76" selection-start="692" selection-end="692" vertical-scroll-proportion="-11.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="calendar.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/calendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="42" selection-start="4022" selection-end="4045" vertical-scroll-proportion="0.2964824">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_dates.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/create_dates.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="0" selection-end="3247" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="moment.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/moment.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="choose_date.mobile.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/choose_date.mobile.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="107" selection-end="118" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="16" selection-start="1026" selection-end="1041" vertical-scroll-proportion="0.0">
+            <state line="127" column="49" selection-start="4085" selection-end="4085" vertical-scroll-proportion="1.4268868">
               <folding />
             </state>
           </provider>
@@ -186,20 +101,20 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/web/style.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/components/DateSelect.js" />
-        <option value="$PROJECT_DIR$/app/views/home/event_name.mobile.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.mobile.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/mobile.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/components/create_dates.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/calendar.css.scss" />
         <option value="$PROJECT_DIR$/app/views/home/choose_date.mobile.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mobile/style.scss" />
+        <option value="$PROJECT_DIR$/app/views/home/event_name.mobile.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/components/calendar.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="434" />
-    <option name="y" value="23" />
+    <option name="x" value="837" />
+    <option name="y" value="34" />
     <option name="width" value="1280" />
     <option name="height" value="1413" />
   </component>
@@ -229,7 +144,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -648,18 +563,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.externalTools" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.externalTools" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -943,15 +858,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="434" y="23" width="1280" height="1413" extended-state="0" />
+    <frame x="837" y="34" width="1280" height="1413" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35528454" sideWeight="0.67097265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36178863" sideWeight="0.67097265" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -960,6 +874,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983872" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1029,9 +944,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="8" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/React JS Calendar Demo.html">
@@ -1069,16 +982,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/event_name.mobile.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="852" selection-end="852" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="76" selection-start="692" selection-end="692" vertical-scroll-proportion="-11.875">
+        <state line="19" column="76" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1086,18 +992,14 @@
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="82" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/moment.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,7 +1019,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/choose_date.mobile.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="107" selection-end="118" vertical-scroll-proportion="-2.5">
+        <state line="4" column="13" selection-start="107" selection-end="118" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1136,9 +1038,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/event_name.mobile.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="19" selection-start="828" selection-end="828" vertical-scroll-proportion="-16.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/calendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="42" selection-start="4022" selection-end="4045" vertical-scroll-proportion="0.2964824">
+        <state line="127" column="49" selection-start="4085" selection-end="4085" vertical-scroll-proportion="1.4268868">
           <folding />
         </state>
       </provider>
