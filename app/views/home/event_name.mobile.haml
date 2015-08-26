@@ -8,22 +8,20 @@
       %textarea{ placeholder:'Event Name', id: 'm_topic_title'}
     .footer
       =link_to(image_tag("mobile/BackCancel.png", :alt => "back"), root_path)
-      =link_to(image_tag("mobile/Choose.png", :alt => "choose_date"), choose_date_path,style:'float:right', id:'chooseDate')
+      =link_to(image_tag("mobile/Choose.png", :alt => "choose_date"), '',style:'float:right', id:'chooseDate')
 
 
 :javascript
 
+  $(document).on('pagebeforeshow', "#topicTitle_page",function () {
+      $(document).on('click', "#chooseDate",function () {
+          var topicTitle = $("#m_topic_title").val();
+          sessionStorage.flag = "title true"
+          sessionStorage.title =  topicTitle
+          alert('fire')
+          $.mobile.changePage('#{choose_date_path}', { data : { 'title' : topicTitle} });
 
-  $(document).on('click', '#chooseDate', function(){
-
-      // store some data
-
-      var topicTitle = $("#m_topic_title").val();
-      if(typeof(Storage)!=="undefined") {
-        ocalStorage.topicTitle= topicTitle;
-      }
-
-      alert("ok")
-      $.mobile.changePage("#choseDate_page");
+      });
   });
+
 
