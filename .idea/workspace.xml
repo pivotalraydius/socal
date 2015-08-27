@@ -86,7 +86,7 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="16" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.8832685">
+            <state line="9" column="48" selection-start="143" selection-end="143" vertical-scroll-proportion="0.105058365">
               <folding />
             </state>
           </provider>
@@ -122,8 +122,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="837" />
-    <option name="y" value="34" />
+    <option name="x" value="1259" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1413" />
   </component>
@@ -153,7 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -573,23 +572,24 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.externalTools" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images/mobile" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/images/web" />
-      <recent name="$PROJECT_DIR$/app/assets/images/mobile" />
       <recent name="$PROJECT_DIR$/app/views/home" />
       <recent name="$PROJECT_DIR$/config/initializers" />
     </key>
@@ -867,14 +867,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="837" y="34" width="1280" height="1413" extended-state="0" />
+    <frame x="1259" y="23" width="1280" height="1413" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36178863" sideWeight="0.67097265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3691057" sideWeight="0.67097265" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -958,16 +958,12 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/React JS Calendar Demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="2" selection-start="722" selection-end="2766" vertical-scroll-proportion="0.4871795">
-          <folding />
-        </state>
+        <state line="124" column="2" selection-start="722" selection-end="2766" vertical-scroll-proportion="0.4871795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/event_name.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="30" selection-start="69" selection-end="79" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
+        <state line="3" column="30" selection-start="69" selection-end="79" vertical-scroll-proportion="-1.875" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -979,72 +975,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/web/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="37" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-3.8846154">
-          <folding />
-        </state>
+        <state line="73" column="37" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-3.8846154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/DateSelect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="4" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="14" selection-start="4" selection-end="14" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="76" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="76" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="82" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="82" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/moment.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/create_dates.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="0" selection-end="3247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="0" selection-start="0" selection-end="3247" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/choose_date.mobile.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="107" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="13" selection-start="107" selection-end="118" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/calendar.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="53" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="53" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/event_name.mobile.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="828" selection-end="828" vertical-scroll-proportion="-16.25">
-          <folding />
-        </state>
+        <state line="26" column="19" selection-start="828" selection-end="828" vertical-scroll-proportion="-16.25" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/calendar.js">
@@ -1056,7 +1032,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="16" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.8832685">
+        <state line="9" column="48" selection-start="143" selection-end="143" vertical-scroll-proportion="0.105058365">
           <folding />
         </state>
       </provider>
