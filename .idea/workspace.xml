@@ -12,7 +12,7 @@
     <file path="$PROJECT_DIR$/../bzz-web/Gemfile" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440062248065" ignored="false" />
     <file path="/application.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440469409511" ignored="false" />
     <file path="/_navigation.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440468550754" ignored="false" />
-    <file path="/style.scss" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440665464978" ignored="false" />
+    <file path="/style.scss" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440667967725" ignored="false" />
     <file path="/login.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440134485161" ignored="false" />
     <file path="/login.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440137788415" ignored="false" />
     <file path="$PROJECT_DIR$/../react_accounts/app/assets/javascripts/components/records.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440147098192" ignored="false" />
@@ -30,7 +30,7 @@
     <file path="/CreateEvent.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440388389436" ignored="false" />
     <file path="/calendar.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440382898789" ignored="false" />
     <file path="/a.sql" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440383854268" ignored="false" />
-    <file path="/calendar.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440663658592" ignored="false" />
+    <file path="/calendar.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440667633610" ignored="false" />
     <file path="/event_form.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440388474207" ignored="false" />
     <file path="$PROJECT_DIR$/../socal-web/app/helpers/calendar_helper.rb" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440392586836" ignored="false" />
     <file path="/EventForm.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440393943490" ignored="false" />
@@ -56,7 +56,7 @@
     <file path="/DateSelect.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440572489963" ignored="false" />
     <file path="/create_dates.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440577737305" ignored="false" />
     <file path="/radiobox.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440651941740" ignored="false" />
-    <file path="/radio.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440662193099" ignored="false" />
+    <file path="/radio.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440667243829" ignored="false" />
     <file path="/radio.scss" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440655373673" ignored="false" />
     <file path="/record.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440660668764" ignored="false" />
     <file path="$PROJECT_DIR$/../react_accounts/app/assets/javascripts/components/record.js.coffee" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440660670843" ignored="false" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="calendar.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/calendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="209" column="51" selection-start="6776" selection-end="6776" vertical-scroll-proportion="-13.384615">
+            <state line="20" column="85" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,16 +91,16 @@
       <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="129" selection-end="129" vertical-scroll-proportion="0.10722796">
+            <state line="9" column="35" selection-start="130" selection-end="130" vertical-scroll-proportion="0.10722796">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="React JS Calendar Demo.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/React JS Calendar Demo.html">
+      <file leaf-file-name="overrite.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile/overrite.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="50" selection-start="3422" selection-end="3441" vertical-scroll-proportion="79.125">
+            <state line="48" column="171" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +109,7 @@
       <file leaf-file-name="radio.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/radio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="13" selection-start="2120" selection-end="2129" vertical-scroll-proportion="0.0">
+            <state line="66" column="60" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1160,23 +1160,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile/overrite.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="171" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/radio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="13" selection-start="2120" selection-end="2129" vertical-scroll-proportion="0.0">
+        <state line="66" column="60" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/calendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="51" selection-start="6776" selection-end="6776" vertical-scroll-proportion="-13.384615">
+        <state line="20" column="85" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="129" selection-end="129" vertical-scroll-proportion="0.10722796">
+        <state line="9" column="35" selection-start="130" selection-end="130" vertical-scroll-proportion="0.10722796">
           <folding />
         </state>
       </provider>
