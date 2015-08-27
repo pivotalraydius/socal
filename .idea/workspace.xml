@@ -40,7 +40,7 @@
     <file path="/app.js" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440405095806" ignored="false" />
     <file path="$PROJECT_DIR$/../bzz-web/config/environments/production.rb" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440466020269" ignored="false" />
     <file path="$PROJECT_DIR$/../react_accounts/config/environments/production.rb" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440466033683" ignored="false" />
-    <file path="/production.rb" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440668291456" ignored="false" />
+    <file path="/production.rb" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440668487174" ignored="false" />
     <file path="$PROJECT_DIR$/../react_accounts/Gemfile" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440467273685" ignored="false" />
     <file path="/event_name.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440469505377" ignored="false" />
     <file path="/choose_date.html.haml" changelist="9938e2da-aa42-4635-a74c-cf3b3f7d5c9b" time="1440492184894" ignored="false" />
@@ -100,7 +100,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="35" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.15488483">
+            <state line="72" column="28" selection-start="3004" selection-end="3004" vertical-scroll-proportion="0.6425735">
               <folding />
             </state>
           </provider>
@@ -118,7 +118,7 @@
       <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1493" selection-end="1531" vertical-scroll-proportion="0.0">
+            <state line="37" column="0" selection-start="1493" selection-end="1530" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1174,14 +1174,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1493" selection-end="1531" vertical-scroll-proportion="0.0">
+        <state line="37" column="0" selection-start="1493" selection-end="1530" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.15488483">
+        <state line="72" column="28" selection-start="3004" selection-end="3004" vertical-scroll-proportion="0.6425735">
           <folding />
         </state>
       </provider>
