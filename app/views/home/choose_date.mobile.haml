@@ -1,3 +1,4 @@
+-#= javascript_include_tag  "bootstrap-timepicker.js"
 #choseDate_page{"data-role" => "page"}
   %div{"data-role" => "header"}
     =render 'layouts/navigation'
@@ -5,48 +6,21 @@
   .ui-content{:role => "main"}
     #topic_title
       Dinner wtih Classmates for No reason
-    = react_component('Calendar', {shouldHide: false})
+    #calendar_wrapper
+
+
+      -#= react_component('Calendar', { shouldHide: false})
 
     .footer
       =link_to(image_tag("mobile/BackEvent.png", :alt => "back"), event_name_path)
       =link_to(image_tag("mobile/Add.png", :alt => "add_people"), choose_date_path,style:'float:right')
 
-
-
-  -#.choose5dates_wrapper
-  -#  %h4.choseHeader Choose Up to 5 possible dates
-  -#  .ui-grid-d.choose5dates
-  -#    .ui-block-a
-  -#      .circle
-  -#        #date1
-  -#          1
-  -#        #month1
-  -#          Aug
-  -#    .ui-block-b
-  -#      .circle_inactive
-  -#        #date2
-  -#          2
-  -#        #month2
-  -#    .ui-block-c
-  -#      .circle_inactive
-  -#        #date3
-  -#          3
-  -#        #month3
-  -#    .ui-block-d
-  -#      .circle_inactive
-  -#        #date4
-  -#          4
-  -#        #month4
-  -#    .ui-block-e
-  -#      .circle_inactive
-  -#        #date5
-  -#          5
-  -#        #month5
-
+  #content
 
 
 :javascript
-  //
-  //React.render(React.createElement(Calendar, {selected: moment().startOf("day"), shouldHide: false}), document.getElementById("calendar"));
-  //
-  //
+
+  React.render(React.createElement(Calendar, {selected: moment().startOf("day")}), document.getElementById("calendar_wrapper"));
+  //$('.timepicker').timepicker()
+
+  //React.render(React.createElement(App, null),  document.getElementById("time_pick"));

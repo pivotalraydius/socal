@@ -1,13 +1,18 @@
 var Calendar = React.createClass({
-    displayName: "Calendar",
+    displayName: "Create Event Calendar",
 
     getInitialState: function() {
         return {
-            month: moment().startOf("day"),
-            shouldHide: this.props.shouldHide,
-            s_date1: moment().startOf("day")
+            month: this.props.selected,
+            calshouldHide: false,
+            timeshouldShow: false,
+            s_date1: '',
+            date1flag: false   ,
+            time: '',
+            status: ''
 
         };
+
     },
 
     previous: function() {
@@ -30,9 +35,32 @@ var Calendar = React.createClass({
         this.props.s_date1 = day.date
 
 //        this.props.shouldHide = true;
-
+        this.updateDates();
         this.forceUpdate();
 
+
+    },
+
+    handleToggle: function(){
+        this.props.calshouldHide= false;
+        this.props.timeshouldShow = false;
+        this.props.time =  this.state.status
+
+
+        this.forceUpdate();
+    },
+
+    updateDates: function(){
+
+        this.props.calshouldHide= true;
+        this.props.timeshouldShow = true;
+
+    },
+
+    onChanged: function (e) {
+        this.setState({
+            status: e.currentTarget.value
+        });
     },
 
 
@@ -56,6 +84,12 @@ var Calendar = React.createClass({
 
     renderMonthLabel: function() {
         return React.createElement("span", null, this.state.month.format("MMMM, YYYY"));
+    },
+
+    renderDateLabel: function() {
+        return React.createElement("h2", {
+            className: 'selectedDatelabel'
+        }, this.props.selected.format("dddd, MM MMMM"));
     },
 
     selectdate1: function(){
@@ -87,9 +121,11 @@ var Calendar = React.createClass({
     },
 
     render: function() {
-        return React.createElement("div", {className: this.props.shouldHide ? 'hidden ' : ''},
+        return React.createElement("div", {className: ''},
 
-            React.createElement("div", {className: 'calendar'},
+            React.createElement("div", {
+                    className: this.props.calshouldHide ? 'hidden' : 'calendar nohidden'
+                },
 
                 React.createElement("div", {className: "header"},
                     React.createElement("i", {className: "fa fa-angle-left", onClick: this.previous}),
@@ -101,6 +137,52 @@ var Calendar = React.createClass({
                 this.renderWeeks()
             ),
 
+            React.createElement("div", {
+                    className: this.props.timeshouldShow ? 'nohidden timepicker' : 'hidden timepicker'
+                },
+
+                this.renderDateLabel() ,
+
+//                React.createElement(TimeRadio, null),
+                React.createElement("table", {className: "table"},
+                    React.createElement("tbody", null,
+                        React.createElement("tr", null,
+
+                            React.createElement("td", null, React.createElement("input", {
+                                type: "radio",
+                                name: "site_name",
+                                value: "all-day",
+                                checked: this.state.status === "all-day",
+                                onChange: this.onChanged}), "all-day"),
+
+                            React.createElement("td", null, React.createElement("input", {
+                                type: "radio",
+                                name: "site_name",
+                                value: "same time",
+                                checked: this.state.status === "same time on all dates",
+                                onChange: this.onChanged}), "same time on all dates")
+                        )
+                    ),
+
+                    React.createElement("tfoot", null,
+                        React.createElement("tr", null,
+                            React.createElement("td", null, "chosen ", this.state.status, " ")
+                        )
+
+
+                    )
+                ),
+
+                React.createElement("button",{
+                    className: 'btn btn-default' ,
+                    onClick: this.handleToggle
+
+                }, "Confirm"  )
+
+
+            ),
+
+
              React.createElement("div",{className: "choose5dates_wrapper"},
                 React.createElement("h4", {className: 'choseHeader'}, "Choose Up to 5 possible dates"),
                 React.createElement("div", {className: 'ui-grid-d choose5dates'},
@@ -108,7 +190,8 @@ var Calendar = React.createClass({
                         React.createElement(DayBox, {
                             type: 'success',
                             date: this.selectdate1(),
-                            month: this.selectmonth1()
+                            month: this.selectmonth1(),
+                            time: this.props.time
                         })
                     ),
 
@@ -138,16 +221,18 @@ var Calendar = React.createClass({
 
 });
 
+
 var DayNames = React.createClass({displayName: "DayNames",
     render: function() {
         return React.createElement("div", {className: "week names"},
+            React.createElement("span", {className: "day weekend"}, "sun"),
             React.createElement("span", {className: "day"}, "mon"),
             React.createElement("span", {className: "day"}, "tue"),
             React.createElement("span", {className: "day"}, "wed"),
             React.createElement("span", {className: "day"}, "thu"),
             React.createElement("span", {className: "day"}, "fri"),
-            React.createElement("span", {className: "day weekend"}, "sat"),
-            React.createElement("span", {className: "day weekend"}, "sun")
+
+            React.createElement("span", {className: "day weekend"}, "sat")
         );
     }
 });
@@ -166,7 +251,13 @@ var Week = React.createClass({displayName: "Week",
                 isToday: date.isSame(new Date(), "day"),
                 date: date
             };
-            days.push(React.createElement("span", {key: day.date.toString(), className: "day" + (day.isToday ? " today" : "") + (day.isCurrentMonth ? "" : " different-month") + (day.date.isSame(this.props.selected) ? " selected" : ""), onClick: this.props.select.bind(null, day)}, day.number));
+
+            days.push(React.createElement("span",{
+                key: day.date.toString(),
+                className: "day" + (day.isToday ? " today" : "") + (day.isCurrentMonth ? "" : " different-month") + (day.date.isSame(this.props.selected) ? " selected" : ""),
+                onClick: this.props.select.bind(null, day)
+                }, day.number));
+
             date = date.clone();
             date.add(1, "d");
 
@@ -189,7 +280,10 @@ var DayBox = React.createClass({
                 this.props.date),
             React.createElement("div", {
                     id:"month1"},
-                this.props.month)
+                this.props.month),
+            React.createElement("div", {
+                    id:"time1"},
+                this.props.time)
         );
 
     }

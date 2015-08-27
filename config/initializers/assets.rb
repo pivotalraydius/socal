@@ -13,3 +13,4 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w(mobile.css )
 Rails.application.config.assets.precompile += %w(mobile.js )
 Rails.application.config.assets.precompile += %w( web.css )
+Rails.application.config.assets.precompile += %w( bootstrap-timepicker.js )

@@ -21,5 +21,5 @@
 //= require underscore-min
 //= require moment.min
 //= require horizontal-scroll
-//= create_dates
+//= require bootstrap-timepicker
 //= require_tree .

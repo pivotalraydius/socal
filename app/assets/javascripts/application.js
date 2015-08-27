@@ -18,6 +18,7 @@
 //= require components
 //= require bootstrap
 //= require bootstrap-sprockets
+//= require bootstrap-timepicker
 //= require underscore-min
 //= require moment.min
 //= require horizontal-scroll

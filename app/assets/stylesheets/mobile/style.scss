@@ -7,7 +7,7 @@
 
 .ui-page
 {
-  background-image: url("../assets/mobile/SoCalBGXL.jpg") !important;
+  background-image: url("../mobile/SoCalBGXL.jpg") !important;
   background-size:cover;
 
 }
@@ -108,7 +108,8 @@
   font-size:30px !important;
 }
 
-#month1,#month2,#month3,#month4,#month5{
+#month1,#month2,#month3,#month4,#month5,
+#time1,#time2,#time3,#time4,#time5{
     padding: 0px;
     color: rgb(253,136,10);
     margin-top:0px;
@@ -116,3 +117,22 @@
 }
 
 .hidden { display:none; }
+
+.nohidden { display: block; }
+
+#timepicker{
+  display: none ;
+}
+
+.selectedDatelabel{
+  color: rgb(253,136,10);
+}
+
+#custom-fieldset div .ui-radio label .ui-icon-radio-on {
+  background-color: red !important;
+}
+
+.ui-radio{
+  color: rgb(253,136,10) !important;
+
+}

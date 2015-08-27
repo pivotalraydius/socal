@@ -56,6 +56,8 @@ gem 'thin'
 
 gem 'browser'
 
+gem 'bootstrap-timepicker-rails'
+
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
