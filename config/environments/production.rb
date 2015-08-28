@@ -22,11 +22,13 @@ Rails.application.configure do
 
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
-  config.serve_static_files = true
+  config.serve_static_files = false
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
-  # config.assets.css_compressor = :sass
+  config.assets.css_compressor = :sass
+
+  config.assets.compress = true
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
@@ -71,6 +73,7 @@ Rails.application.configure do
   config.i18n.fallbacks = true
 
   config.react.variant = :production
+  config.react.addons = true
 
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
