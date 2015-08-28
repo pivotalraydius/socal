@@ -143,45 +143,34 @@ var Calendar = React.createClass({
 
                 this.renderDateLabel() ,
 
-//                React.createElement(TimeRadio, null),
-                React.createElement("table", {className: "table"},
-                    React.createElement("tbody", null,
-                        React.createElement("tr", null,
+                React.createElement("table",{className: 'table'}, null,
+                    React.createElement("tr", null,
+                        React.createElement("td", null,
+                            React.createElement("input",
+                                {type: "radio", name: "status_name",
+                                value: "all day",
+                                checked: this.state.status === "all day",
+                                onChange: this.onChanged,
+                                width:"50%"}), "all day"),
 
-                            React.createElement("td", null, React.createElement("input", {
-                                type: "radio",
-                                name: "site_name",
-                                value: "all-day",
-                                checked: this.state.status === "all-day",
-                                onChange: this.onChanged}), "all-day"),
-
-                            React.createElement("td", null, React.createElement("input", {
-                                type: "radio",
-                                name: "site_name",
-                                value: "same time",
-                                checked: this.state.status === "same time on all dates",
-                                onChange: this.onChanged}), "same time on all dates")
-                        )
-                    ),
-
-                    React.createElement("tfoot", null,
-                        React.createElement("tr", null,
-                            React.createElement("td", null, "chosen ", this.state.status, " ")
-                        )
-
-
+                        React.createElement("td", null,
+                            React.createElement("input", {
+                                type: "radio", name: "status_name",
+                                value: "same",
+                                checked: this.state.status === "same",
+                                onChange: this.onChanged,
+                                width: "50%"}), "same time on all date")
                     )
-                ),
+                ) ,
 
-                React.createElement("button",{
-                    className: 'btn btn-default' ,
+                React.createElement("a",{
+                    className: 'btn btn-warning' ,
                     onClick: this.handleToggle
 
                 }, "Confirm"  )
 
 
             ),
-
 
              React.createElement("div",{className: "choose5dates_wrapper"},
                 React.createElement("h4", {className: 'choseHeader'}, "Choose Up to 5 possible dates"),
@@ -217,7 +206,6 @@ var Calendar = React.createClass({
 
         );
     }
-
 
 });
 

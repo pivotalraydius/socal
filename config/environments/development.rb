@@ -35,7 +35,10 @@ Rails.application.configure do
   # Checks for improperly declared sprockets dependencies.
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
+  #config.react.variant = :development
+
   config.react.variant = :development
+  config.react.addons = true
 
   config.web_console.whitelisted_ips = '192.168.0.108'
 
